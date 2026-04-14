@@ -1,3 +1,5 @@
+
+
 ## 1- Cluster Installation multi-node (VMs) with KIND
 
 * Creation d'un cluster
@@ -61,6 +63,10 @@ otherwise use this link based on your OS
 
           kubectl get nodes
 
+
+## Quick reference
+
+    https://kubernetes.io/docs/reference/kubectl/quick-reference/
 
   
 
