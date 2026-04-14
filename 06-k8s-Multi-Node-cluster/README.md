@@ -22,7 +22,7 @@ otherwise use this link based on your OS
 
     links : https://kubernetes.io/docs/tasks/tools/
 
-## What's happening when we run
+## 3 What's happening when we run
       kubectl get nodes
   it's will reachout control-plane throughout APISERVER component afer authenticate,validation the request and then return data from etcd component, then get back running pods
 
@@ -30,7 +30,7 @@ otherwise use this link based on your OS
         cka-simoncluster1-control-plane   Ready    control-plane   32m   v1.34.3
 
 
-## Create cluster with multiple node or VM
+## 4 Create cluster with multiple node or VM
    Configuring your kind cluster
   * create config-multi-node.yml file
    ___
@@ -46,7 +46,7 @@ otherwise use this link based on your OS
     
         kind create cluster --image=kindest/node:v1.34.3@sha256:08497ee19eace7b4b5348db5c6a1591d7752b164530a36f855cb0f2bdcbadd48 --name cka-simoncluster-multi-node2 --config config-multi-node.yml
 
-  * See create cluster
+  * See created cluster
 
          kubectl cluster-info --context kind-cka-simoncluster-multi-node2 
   * See all contexts
