@@ -7,11 +7,11 @@ Pour installer kind suit ce lien en fonction de ton architecture OS
 
 *Create cluster with a specific version and rename it*
 
- kind create cluster --image=kindest/node:v1.34.3@sha256:08497ee19eace7b4b5348db5c6a1591d7752b164530a36f855cb0f2bdcbadd48 --name=cka-simoncluster1
+    kind create cluster --image=kindest/node:v1.34.3@sha256:08497ee19eace7b4b5348db5c6a1591d7752b164530a36f855cb0f2bdcbadd48 --name=cka-simoncluster1
 
  * Knowing a current cluster
 
- kubectl cluster-info --context kind-cka-simoncluster1
+       kubectl cluster-info --context kind-cka-simoncluster1
 
  retrieve cluster information from a this particular context
 
