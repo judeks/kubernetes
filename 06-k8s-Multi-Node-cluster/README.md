@@ -1,4 +1,4 @@
-## 1- Installation du cluster multi-node (VMs) avec KIND
+## 1- Cluster Installation multi-node (VMs) with KIND
 
 * Creation d'un cluster
 Pour installer kind suit ce lien en fonction de ton architecture OS 
