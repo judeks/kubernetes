@@ -1,3 +1,3 @@
 # kubernetes
-# Project for learning pupose
+# Project for mastering kubernetes
 
