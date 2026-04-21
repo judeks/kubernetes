@@ -1,0 +1,21 @@
+apiVersion:
+kind: ReplicationController
+metadata:
+   name: nginx-rc
+   labels:
+     env: demo      
+spec:
+  template:  
+    metadata:
+      labels:
+        env: demo
+      name: nginx
+    spec:
+      containers:
+      - name: nginx
+        image: nginx:latest
+        ports:
+        - containerPort: 80
+  replicas: 3
+
+  
