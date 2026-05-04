@@ -76,5 +76,5 @@
 
       Show only or retrieve pods that matches specify label with the label tier:frontend tier=backend in pod
 
- # amespace
- Logical seperation of ressources in group
+ # Namespace
+ Logical seperation of ressources in a group
