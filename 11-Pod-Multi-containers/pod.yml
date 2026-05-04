@@ -1,0 +1,20 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: myapp
+  labels:
+     name: myapp-pod
+spec:
+  containers:
+    - name: myapp-containers
+      image: busybox:1.28
+      command: ['sh', '-c', 'echo The app is running! && sleep 3600']
+      env:
+        - name: FIRSTNAME
+          value: "simon"
+  initContainers:
+    - name: init-myservice
+      image: busybox:1.28
+      command: ['sh', '-c', 'echo The app is running! && sleep 3600']
+      args: ['until nslookup myservice.default.svc.cka-simoncluster1.local; do echo waiting for myservice to be up; sleep 2; done;']
+
