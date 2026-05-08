@@ -36,7 +36,11 @@
  * Unlabel node
    
         kubectl label node cka-simoncluster-multi-node2-worker disktyp-
-        
+
  * Specify only operaty affinity
 
     k8s will just use the key to schedule the pod
+
+  * Recommendations
+
+    Use tains/labels(node) and toleration/nodeAffinity(pods) to make sure pods are being sheduled propely

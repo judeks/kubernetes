@@ -18,7 +18,7 @@ spec:
         nodeSelectorTerms:
         - matchExpressions:
           - key: disktype
-            operator: exists
+            operator: Exists
             #values:
             #- ssd
      
