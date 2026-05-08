@@ -19,8 +19,8 @@ spec:
         preference:
           matchExpressions:
           - key: disktype
-            operator: In
-            values:
-            - hdd
+            operator: Exists
+            #values:
+            #- hdd
      
 status: {}
