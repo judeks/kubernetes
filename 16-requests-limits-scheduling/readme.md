@@ -1,6 +1,8 @@
 
 # FIXED THE CAPCITY TAKEN BY PODS on a node before we have OOM (Out of Memory) of pods a nd crashed
 
+#CAPACITY
+
 * Expose metrics  for testing request and limits
 
       kubectl apply -f metrics-server.yaml 
