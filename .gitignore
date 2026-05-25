@@ -1,5 +1,4 @@
-21-tls-csr-k8s/simon.key
-21-tls-csr-k8s/simon.crs
-21-tls-csr-k8s/issuecert.yml
-21-tls-csr-k8s/csr-simon.yml
-21-tls-csr-k8s/simon-cert.crt
+# Ignore all files in the 21-tls-csr-k8s directory except for simon.crs and readme.md
+21-tls-csr-k8s/*
+!21-tls-csr-k8s/simon.crs
+!21-tls-csr-k8s/readme.md
