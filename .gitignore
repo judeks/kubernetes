@@ -1,4 +1,3 @@
 # Ignore all files in the 21-tls-csr-k8s directory except for simon.crs and readme.md
-21-tls-csr-k8s/*
-!21-tls-csr-k8s/simon.crs
-!21-tls-csr-k8s/readme.md
+21-tls-csr-k8s/tls-csr/*
+
